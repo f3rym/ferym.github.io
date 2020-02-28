@@ -22663,11 +22663,11 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.NinePatch,
 	cr.plugins_.Button,
-	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
+	cr.plugins_.Keyboard,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Spritefont2,
 	cr.plugins_.Sprite,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Touch,
 	cr.plugins_.Text,
 	cr.behaviors.Platform,
